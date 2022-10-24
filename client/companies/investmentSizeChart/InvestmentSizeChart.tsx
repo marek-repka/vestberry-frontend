@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { CompanyType } from "@client/graphql";
-import SectionTitle from "@client/common/SectionTitle";
-import { CircleChart } from "@client/common/CircleChart";
+import SectionTitle from "@client/common/text/SectionTitle";
+import { CircleChart } from "@client/common/chart/CircleChart";
 
 const Container = styled.div`
   background: rgba(255, 255, 255, 0.03);

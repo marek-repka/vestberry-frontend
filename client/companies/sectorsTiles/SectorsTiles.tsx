@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import styled from "styled-components";
 import { CompanyType } from "@client/graphql";
-import SectionTitle from "@client/common/SectionTitle";
+import SectionTitle from "@client/common/text/SectionTitle";
 import SingleSectorTile from "./SingleSectorTile";
 
 const TilesContainer = styled.div`

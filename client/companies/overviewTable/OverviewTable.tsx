@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { CompanyType } from "@client/graphql";
-import SectionTitle from "@client/common/SectionTitle";
+import SectionTitle from "@client/common/text/SectionTitle";
 import {
   StyledTable,
   TableHeader,
@@ -9,7 +9,7 @@ import {
   HeaderCell,
   TitleCell,
   DataCell,
-} from "@client/common/StyledTable";
+} from "@client/common/table/StyledTable";
 
 const numberToMoneyString = (amount: number) => {
   return amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
