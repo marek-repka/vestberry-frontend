@@ -41,7 +41,7 @@ export const Dropdown = ({ name, label, value, options, onChange, placeholder }:
           </option>
         )}
         {options.map((option) => (
-          <option value={option}>{option}</option>
+          <option key={option} value={option}>{option}</option>
         ))}
       </StyledDropdown>
     </FormComponentWrapper>

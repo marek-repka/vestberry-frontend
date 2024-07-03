@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { CompanyType } from "@client/graphql";
 import SectionTitle from "@client/common/text/SectionTitle";
 import {
